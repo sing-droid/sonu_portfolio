@@ -1,6 +1,6 @@
 import "./FooterStyle.css"
 import React from "react"
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
                    <h4>
                    <FaPhone size={20} style={{ color:"#fff", marginRight:"2rem"
                         }} />
-                        9773-6084-95
+                        9773608495
                    </h4>
                     </div>
                     <div className="email">
@@ -31,7 +31,21 @@ const Footer = () => {
                    </h4>
                     </div>
                 </div>
-                <div className="right-footer"></div>
+                <div className="right-footer">
+                    <h4>About me</h4>
+                    <p>
+                    An enthusiastic fresher who is capable to use technical skills for the betterment of the organization. 
+                    Objective to work with an organization where i can learn new skills and increase my abilities for the organizational goals as well as my own.
+                    </p>
+                    <div className="social">
+                    <FaFacebook size={30} style={{ color:"#fff", marginRight:"1rem"
+                        }} />
+                         <FaTwitter size={30} style={{ color:"#fff", marginRight:"1rem"
+                        }} />
+                         <FaLinkedin size={30} style={{ color:"#fff", marginRight:"1rem"
+                        }} />
+                    </div>
+                </div>
 
             </div>
         </div>

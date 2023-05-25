@@ -7,8 +7,8 @@ const Home = ()=> {
     return(
         <div>
             <Navbar />
-            <Heroimg/>
-            <footer/>
+            <Heroimg />
+            <Footer />
 
         </div>
     );
