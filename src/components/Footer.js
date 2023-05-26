@@ -1,6 +1,7 @@
 import "./FooterStyle.css"
 import React from "react"
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -38,12 +39,20 @@ const Footer = () => {
                     Objective to work with an organization where i can learn new skills and increase my abilities for the organizational goals as well as my own.
                     </p>
                     <div className="social">
-                    <FaFacebook size={30} style={{ color:"#fff", marginRight:"1rem"
+                    <Link to="https://github.com/sing-droid/">
+                    <FaGithub size={30} style={{ color:"#fff", marginRight:"1rem"
                         }} />
-                         <FaTwitter size={30} style={{ color:"#fff", marginRight:"1rem"
+                    </Link>
+
+                    <Link to="https://twitter.com/i/flow/login">
+                    <FaTwitter size={30} style={{ color:"#fff", marginRight:"1rem"
                         }} />
+                    </Link>
+                    
+                       <Link to="https://www.linkedin.com/in/sonu-singh-67397b192/">
                          <FaLinkedin size={30} style={{ color:"#fff", marginRight:"1rem"
                         }} />
+                        </Link>
                     </div>
                 </div>
 
