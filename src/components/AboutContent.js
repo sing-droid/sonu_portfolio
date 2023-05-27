@@ -1,6 +1,6 @@
 import "./AboutContentStyle.css";
 import { Link } from "react-router-dom";
-import img1 from "../Assets/img-4.avif";
+import img1 from "../Assets/project-img.jpeg";
 import img2 from "../Assets/new-img3.avif"
 
 

@@ -20,12 +20,16 @@
 
 }
 
+img {
+    width:100% ;
+}
+
 .card:hover {
     background-color: #141414;
 }
 
 .card h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 1rem;
 }
 

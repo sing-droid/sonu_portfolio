@@ -1,13 +1,15 @@
 import "./PricingCardStyles.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import projectimg from "../Assets/diploma-img.jpeg"
+import projectimg1 from "../Assets/10th.jpeg"
 
 const PricingCard = () => {
     return (
 <div className="pricing">
     <div className="card-container">
         <div className="card">
-            <h3> - basic -</h3>
-            <span className="bar"></span>
+            <h3> - Diploma -</h3>
+            {/* <span className="bar"></span>
             <p className="btc">$ 100</p>
             <p> - 3 days -</p>
             <p> - 3 pages -</p>
@@ -15,11 +17,12 @@ const PricingCard = () => {
             <p> - responsive design -</p>
             <Link to ="/Contact" className="btn">
                 Purchase Now
-            </Link>
+            </Link> */}
+            <img src={projectimg} alt="" />
         </div>
         <div className="card">
-            <h3> - Premium -</h3>
-            <span className="bar"></span>
+            <h3> - 12th -</h3>
+            {/* <span className="bar"></span>
             <p className="btc">$ 200</p>
             <p> - 2 days -</p>
             <p> - 4 pages -</p>
@@ -27,11 +30,11 @@ const PricingCard = () => {
             <p> - responsive design -</p>
             <Link to ="/Contact" className="btn">
                 Purchase Now
-            </Link>
+            </Link> */}
         </div>
         <div className="card">
-            <h3> - Business -</h3>
-            <span className="bar"></span>
+            <h3> - 10th -</h3>
+            {/* <span className="bar"></span>
             <p className="btc">$ 400</p>
             <p> - 5 days -</p>
             <p> - 5 pages -</p>
@@ -39,7 +42,8 @@ const PricingCard = () => {
             <p> - responsive design -</p>
             <Link to ="/Contact" className="btn">
                 Purchase Now
-            </Link>
+            </Link> */}
+            <img src={projectimg1} alt="image" />
         </div>
     </div>
     
