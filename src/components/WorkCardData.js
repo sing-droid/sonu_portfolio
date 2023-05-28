@@ -14,8 +14,8 @@ const ProjectCardData = [
     {
         pic: pic2,
         title : "Port-folio",
-        text: "Beautiful UI, Responsive UI, Generates meals and recipes based on users' calories,Tech Stack : HTML, CSS, and JAVASCRIPT,Description : This project will generate meals and recipes based on user BMR and calories and it will show the recipes for that meals.  ",
-        view : "https://codepen.io/sonusingh82342/pen/vYayQeX",
+        text: "Beautiful UI, Responsive UI, Tech Stack : React, CSS, Description : In this project i have made a   ",
+        view : "https://sonu-portfolio-three.vercel.app/",
         source : "https://github.com/sing-droid/sonu_portfolio"
 
     },
