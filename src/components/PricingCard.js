@@ -18,7 +18,9 @@ const PricingCard = () => {
             <Link to ="/Contact" className="btn">
                 Purchase Now
             </Link> */}
-            <img src={projectimg} alt="" />
+            {/* <img src={projectimg} alt="" /> */}
+            <p>JKP Polytechnic, Sonipat.</p>
+            <p>80%</p>
         </div>
         <div className="card">
             <h3> - 12th -</h3>
@@ -31,6 +33,8 @@ const PricingCard = () => {
             <Link to ="/Contact" className="btn">
                 Purchase Now
             </Link> */}
+            <p>TPS College, Chapra (SARAN).</p>
+            <p>63%</p>
         </div>
         <div className="card">
             <h3> - 10th -</h3>
@@ -43,7 +47,10 @@ const PricingCard = () => {
             <Link to ="/Contact" className="btn">
                 Purchase Now
             </Link> */}
-            <img src={projectimg1} alt="image" />
+            {/* <img src={projectimg1} alt="image" /> */}
+
+            <p>High School, Rashulpur SARAN.</p>
+            <p>58%</p>
         </div>
     </div>
     
