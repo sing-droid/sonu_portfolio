@@ -15,7 +15,7 @@ const ProjectCardData = [
         pic: pic2,
         title : "Port-folio",
         text: "Beautiful UI, Responsive UI, Tech Stack : React, CSS, Description : In this project i have made a Port-Folio Website using REACT and CSS.",
-        view : "https://sonu-portfolio-three.vercel.app/",
+        view : "https://sonu-portfolio-zrz6.vercel.app/",
         source : "https://github.com/sing-droid/sonu_portfolio"
 
     },

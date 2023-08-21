@@ -20,7 +20,7 @@ const PricingCard = () => {
             </Link> */}
             {/* <img src={projectimg} alt="" /> */}
             <p>JKP Polytechnic, Sonipat.</p>
-            <p>80%</p>
+            <p>72%</p>
         </div>
         <div className="card">
             <h3> - 12th -</h3>
